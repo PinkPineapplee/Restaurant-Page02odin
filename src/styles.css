@@ -1,3 +1,33 @@
 body{
     background-color: rebeccapurple;
 }
+
+header{
+    height: 10%;
+    width: 100vw;
+    display: flex;
+
+}
+
+header li img{
+    font-size: 20px;
+}
+
+header li nav {
+    display:flex
+}
+
+header li nav>button{
+    border: none;
+    height: 5em;
+    width: 2em;
+    color: rgb(109, 34, 180);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1{
+    color: brown;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
