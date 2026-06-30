@@ -31,3 +31,12 @@ header h1{
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#banner{
+    height: 20vh;
+    width: 10vh;
+}
+#banner img{
+    height: 70px;
+    width: 100px;
+}
