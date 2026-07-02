@@ -99,10 +99,15 @@ header h1{
 }
 
 footer{
- height: 5vh;
+ height: 6vh;
  width: 100vw;
  display: flex;
  justify-content: center;
  align-content: center;
  background-color: rgb(221, 186, 255);
+ position: fixed;
+  left: 0;
+  bottom: 0;
+ 
+  
 }
