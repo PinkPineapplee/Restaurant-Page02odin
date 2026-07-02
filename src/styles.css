@@ -3,20 +3,26 @@ body{
 }
 
 header{
-    height: 30%;
+    height: 30vh;
     width: 100vw;
     display: flex;
     background-image:url("./images/image_900x675_1.png");
-
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 30vh;
+    background-position: end;
+    justify-content: space-around;
+    align-items: start;
+    background: linear-gradient(45deg, rgb(136, 216, 245), rgb(246, 250, 173), rgb(218, 255, 186) , rgb(255, 220, 155), rgb(255, 177, 190), #ffa6ff);
 }
 
-header ul:first-child{
+ header #first{
     display: flex;
     width: 60%;
-    height: 1rem;
+    height: 2rem;
+    background-color: aqua;
 }
 
-header ul>li>img{
+header #magnify{
      height: 20px;
     width: 20px;
 
@@ -26,10 +32,10 @@ header li nav, header ul {
     display:flex
 }
 
-header li nav button{
+header button{
     border: none;
-    height: 5em;
-    width: 2em;
+    height: 2.5rem;
+    width: 4rem;
     color: rgb(109, 34, 180);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -53,4 +59,5 @@ header h1{
 
 #burger-gallary{
     display: grid;
+    grid-template-columns: auto auto auto;
 }
