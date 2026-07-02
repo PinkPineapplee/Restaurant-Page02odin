@@ -6,24 +6,33 @@ header{
     height: 30vh;
     width: 100vw;
     display: flex;
+    background: linear-gradient(25deg, rgb(136, 216, 245), rgb(218, 255, 186) , rgb(255, 220, 155), rgb(246, 250, 173), rgb(255, 177, 190), #ffa6ff);
     background-image:url("./images/image_900x675_1.png");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 30vh;
     background-position: end;
-    justify-content: space-around;
     align-items: start;
-    background: linear-gradient(45deg, rgb(136, 216, 245), rgb(246, 250, 173), rgb(218, 255, 186) , rgb(255, 220, 155), rgb(255, 177, 190), #ffa6ff);
+    justify-content: space-between;
+    margin: 5px;
+   
 }
-
+header ul{
+    width: 80%;
+    justify-content: space-around;
+}
  header #first{
     display: flex;
     width: 60%;
-    height: 2rem;
-    background-color: aqua;
+    height: 2.5rem;
+    
 }
-
+header input{
+    width: 90%;
+    border-radius: 5px;
+    height: 2.5rem;
+}
 header #magnify{
-     height: 20px;
+     height: 30px;
     width: 20px;
 
 }
@@ -41,23 +50,31 @@ header button{
 }
 
 header h1{
-    color: brown;
+    color: rgb(187, 46, 46);
     font-size: 50px;
     font-weight: 999;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     gap: 0;
+    background-color: aquamarine;
 }
 
 
 
 #content{
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
 
 }
 
 #burger-gallary{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ffa6ff;
+}
+
+#content img{
+    height: 300px;
+    width: 350px;
 }
