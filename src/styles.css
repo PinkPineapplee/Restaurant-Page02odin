@@ -3,14 +3,20 @@ body{
 }
 
 header{
-    height: 10%;
+    height: 30%;
     width: 100vw;
     display: flex;
-    background-color: bisque;
+    background-image:url("./images/image_900x675_1.png");
 
 }
 
-header li img{
+header ul:first-child{
+    display: flex;
+    width: 60%;
+    height: 1rem;
+}
+
+header ul>li>img{
      height: 20px;
     width: 20px;
 
@@ -30,21 +36,21 @@ header li nav button{
 
 header h1{
     color: brown;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 999;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    gap: 0;
 }
 
-#banner{
-    height: 30vh;
-    width: 100vw;
-}
-#banner img{
-    height: 100%;
-    width: 100%;
-}
+
 
 #content{
     height: 80vh;
     width: 100vw;
+
+}
+
+#burger-gallary{
+    display: grid;
 }
