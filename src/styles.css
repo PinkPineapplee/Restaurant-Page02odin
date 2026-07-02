@@ -6,7 +6,7 @@ header{
     height: 50vh;
     width: 100vw;
     display: flex;
-    background-image:url("./images/image_900x675_1.png"), linear-gradient(25deg, rgb(136, 216, 245), rgb(218, 255, 186) , rgb(255, 220, 155), rgb(246, 250, 173), rgb(255, 177, 190), #ffa6ff);
+    background-image:url("./images/image_900x675_1.png"), linear-gradient(25deg, rgb(136, 216, 245), rgb(218, 255, 186) , rgb(255, 244, 223), rgb(255, 177, 190), #ffa6ff);
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
     background-position: right;
@@ -79,9 +79,21 @@ header h1{
     height: 250px;
     width: 98%;
     margin: 5px;
+     border-radius: 5px;
 }
 
 #content .box{
-    border: 5px solid rgb(109, 34, 180);
+    border: 5px solid rgb(192, 7, 78);
     border-radius: 20px;
+    justify-content: center;
+}
+
+#content .box button{
+     border: none;
+    height: 2.5rem;
+    width: 98%;
+    color: white;
+    background-color: rgb(137, 25, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
 }
