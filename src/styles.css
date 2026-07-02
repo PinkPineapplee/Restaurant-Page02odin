@@ -1,5 +1,5 @@
 body{
-   
+ height: 100vh;
 }
 
 header{
@@ -70,7 +70,7 @@ header h1{
 
 #burger-gallary, #milkSkakes-gallary{
     display: grid;
-    grid-template: auto auto auto/1fr 1fr 1fr ;  
+    grid-template: auto auto /1fr 1fr 1fr 1fr ;  
    
     gap: 10px;
 }
@@ -83,7 +83,7 @@ header h1{
 }
 
 #content .box{
-    border: 5px solid rgb(192, 7, 78);
+    border: 5px solid rgb(195, 124, 213);
     border-radius: 20px;
     justify-content: center;
 }
@@ -96,4 +96,13 @@ header h1{
     background-color: rgb(137, 25, 70);
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
+}
+
+footer{
+ height: 5vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ background-color: rgb(221, 186, 255);
 }
